@@ -46,3 +46,5 @@ input입력 > Post프로토콜 > 완료후 새로 Get프로토콜로 list가져�
 
 
 ## 개선할점
+지금은 class형 Component를 사용하고있지만 hooks라는 함수형 Component가 나왔고 사용을 장려하는 중이기 때문에 hooks로도 새로 짤예정입니다.  
+현재는 update/delete 상황에서 fetch후에 새로 전체 리스트를 새로 받아와서 의미없는 부분이 의미없이 render되고있는데 이 부분을 개선할것입니다
